@@ -21,12 +21,12 @@ avatar: /images/reverie.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: amit.d.merchant@gmail.com
+  email: willmcgugan+essays@gmail.com
   facebook:
   flickr:
   github: willmcgugan
   instagram:
-  linkedin: https://www.linkedin.com/in/willmcgugan/
+  linkedin: willmcgugan/
   pinterest:
   rss: rss
   twitter: willmcgugan
@@ -34,7 +34,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
   playconsole:
-  mastodon: https://mastodon.social/@willmcgugan # <your-mastodon-instance>/@<your-user-name> eg. fosstodon.org/@username
+  mastodon: mastodon.social/@willmcgugan # <your-mastodon-instance>/@<your-user-name> eg. fosstodon.org/@username
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
