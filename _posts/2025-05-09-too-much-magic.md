@@ -11,22 +11,23 @@ This always makes me think of the Goldilocks and the Three Bears fable, where Go
 This tends to occur when an API moves from a procedural design to something more declarative.
 In other words, you tell the API *what* you want without telling it *how* you want it done.
 The difference is generally only apparent at a micro scale.
-When you zoom in or out, you see that going procedural -> declarative is almost fractal in nature, where something declarative is procedural the next level up.
+When you zoom in or out, you see that going procedural -> declarative is fractal in nature, where something declarative is procedural the next level up.
 
 For instance, this might look maximally procedural:
 
-```python
+```
 a + b
 ```
 
 But it is essence a declarative way of implementing this:
 
-```python
+```
 add(a, b)
 ```
 
 And that is merely a declarative alternative to pushing and popping data on a call stack.
-Keep zooming out and you get to frameworks, ORMs, browsers, and LLMs. But the magic goes all the way down. 
+Keep zooming out and you get to frameworks, ORMs, browsers, and LLMs.
+But the magic goes all the way down. 
 
 The transition from one level to another occurs when the API doesn't scale.
 When it becomes too verbose or complex to express your intent clearly, a phase shift from procedural to declarative has to occur.
