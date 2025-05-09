@@ -11,7 +11,7 @@ This always makes me think of the Goldilocks and the Three Bears fable, where Go
 Such criticism tends to occur when an API moves from a procedural design to something more declarative.
 In other words, you tell the API *what* you want without telling it *how* you want it done.
 The difference is generally only apparent at a micro scale.
-When you zoom in or out you see that the transition from procedural to declarative is fractal in nature, where something declarative is procedural the next level up.
+When you zoom in or out you see that the transition from procedural to declarative is fractal in nature: something declarative is procedural the next level up.
 
 For instance, this might look maximally procedural:
 
