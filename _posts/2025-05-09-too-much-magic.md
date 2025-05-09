@@ -6,7 +6,7 @@ categories: [tech]
 
 A common criticisms of frameworks like [Textual](https://github.com/textualize/textual) is that they have "too much magic".
 
-This always makes me think of the Goldilocks and the Three Bears fable, where Goldilocks is a Gen Z software developer declaring "there is too much magic in this API"![^1] Presumably there is an API where the dev finds the amount of magic "just right".
+This always makes me think of the Goldilocks and the Three Bears fable, where Goldilocks is a Gen Z software developer declaring "there is too much magic in this API"![^1] Presumably there is an API where the dev finds the amount of magic "just right"?
 
 Such criticism tends to occur when an API moves from a procedural design to something more declarative.
 In other words, you tell the API *what* you want without telling it *how* you want it done.
