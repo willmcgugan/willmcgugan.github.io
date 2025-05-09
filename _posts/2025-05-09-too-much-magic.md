@@ -33,8 +33,8 @@ The transition from one level to another occurs when the API doesn't scale.
 When it becomes too verbose or complex to express your intent clearly, a phase shift from procedural to declarative has to occur.
 It's a good thing.
 
-Now "too much magic" is not the same thing as "bad magic".
-Although they are often conflated, bad magic is when the implementation details leak out from the level below.
+Now "too much magic" is not the same thing as "bad magic", although they are often conflated.
+Bad magic is when the implementation details leak out from the level below.
 This can manifest itself as cryptic errors that reference the magic's implementation.
 It can also take the form of poor optimization.
 Like an ORM where the user has clearly expressed intent but the generated query is massively inefficient.
