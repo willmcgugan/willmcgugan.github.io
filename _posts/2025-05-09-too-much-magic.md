@@ -39,7 +39,7 @@ This can manifest itself as cryptic errors that reference the magic's implementa
 It can also take the form of poor optimization.
 Like an ORM where the user has clearly expressed intent but the generated query is massively inefficient.
 You could legitimately levy the criticism of "bad magic" there.
-But that still isn't too much magic--the amount of magic wouldn't change if the ORM produced super efficient queries.
+But that still isn't *too much* magic--the amount of magic wouldn't change if the ORM produced super efficient queries.
 
 So please avoid the phrase "too much magic" unless you are watching card tricks.
 But by all means, point out where the magic could work better.
