@@ -27,7 +27,7 @@ add(a, b)
 
 And that is merely a declarative alternative to pushing and popping data on a call stack.
 Keep zooming out and you get to frameworks, ORMs, browsers, and LLMs.
-But it is magic all the way.
+But the journey is magic all the way.
 
 The transition from one level to another occurs when the API doesn't scale.
 When it becomes too verbose or complex to express your intent clearly, a phase shift from procedural to declarative has to occur.
