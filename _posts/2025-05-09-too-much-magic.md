@@ -8,10 +8,10 @@ A common criticisms of frameworks like [Textual](https://github.com/textualize/t
 
 This always makes me think of the Goldilocks and the Three Bears fable, where Goldilocks is a Gen Z software developer declaring "there is too much magic in this API!"[^1] (presumably there is an API where the dev finds the amount of magic in the API "just right").
 
-This tends to occur when an API moves from a procedural design to something more declarative.
+Such criticism tends to occur when an API moves from a procedural design to something more declarative.
 In other words, you tell the API *what* you want without telling it *how* you want it done.
 The difference is generally only apparent at a micro scale.
-When you zoom in or out, you see that going procedural -> declarative is fractal in nature, where something declarative is procedural the next level up.
+When you zoom in or out you see that the transition from procedural to declarative is fractal in nature, where something declarative is procedural the next level up.
 
 For instance, this might look maximally procedural:
 
@@ -19,7 +19,7 @@ For instance, this might look maximally procedural:
 a + b
 ```
 
-But it is essence a declarative way of implementing this:
+And yet it is essence a declarative way of implementing this:
 
 ```
 add(a, b)
@@ -27,12 +27,13 @@ add(a, b)
 
 And that is merely a declarative alternative to pushing and popping data on a call stack.
 Keep zooming out and you get to frameworks, ORMs, browsers, and LLMs.
-But the magic goes all the way down. 
+But it is magic all the way.
 
 The transition from one level to another occurs when the API doesn't scale.
 When it becomes too verbose or complex to express your intent clearly, a phase shift from procedural to declarative has to occur.
+It's a good thing.
 
-Now "too much magic" is not quite the same thing as "bad magic".
+Now "too much magic" is not the same thing as "bad magic".
 Although they are often conflated, bad magic is when the implementation details leak out from the level below.
 This can manifest itself as cryptic errors that reference the magic's implementation.
 It can also take the form of poor optimization.
