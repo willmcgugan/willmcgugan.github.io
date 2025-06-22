@@ -62,7 +62,7 @@ This allows the developer to set `padding=1`, or `padding=(1, 2)`, or `padding=(
 It works just fine, but the type checker will complain about setting anything other than a tuple of 4 ints.
 
 We could just require that the dev always uses a tuple of four integers, but that places a burden on the caller.
-I also like to avoid punishing the dev if they want to write something in a more natural / expressive way.
+I like to avoid punishing the dev if they want to write something in a more natural / expressive way.
 
 Fortunately, we can create a property which does allow for this kind of flexibility.
 The trick is to implement the property with a Python *descriptor*.
