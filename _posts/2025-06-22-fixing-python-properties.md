@@ -14,7 +14,7 @@ Even if your setter accepts different types, the type checker will complain on a
 This could be an oversight and perhaps should be flagged, but there are some legitimate uses for a setter that accepts different types.
 
 Let's look at a practical example (and the actual use case that lead to me discovering this).
-I want to be able to set *padding* for a component in UI, which can be specified in the same way as CSS in the browser.
+I want to be able to set *padding* for a component in UI, specified in the same way as CSS in the browser.
 A single value may be given for equal space around the component, or two values for the horizontal and vertical edges, or four values (one for each side).
 
 Here's how you might capture that with a traditional property:
