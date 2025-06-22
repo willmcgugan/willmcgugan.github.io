@@ -114,7 +114,7 @@ with_padding.padding = (1, 2)  # This works!
 ```
 
 The `@property` has been replaced with a descriptor called `PaddingProperty`.
-Descriptors allow different types for the `__get__` and `__set__` operations, and MyPy is now happy with that last assignment, and the other variations.
+Descriptors allow different types for the `__get__` and `__set__` operations, and MyPy is now happy with that last assignment (and the other variations).
 From the caller's point of view, the API hasn't change at all, but now the typing works.
 
 Personally I think that if the property setter has to accept the same type as the getter, then the type checker should complain about the setter, and not the assignment.
