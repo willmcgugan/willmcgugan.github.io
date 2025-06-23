@@ -124,3 +124,7 @@ But if you want this flexibility, descriptors are a solid way of doing that.
 For a great introduction to descriptors, see [Rodrigo Serrão's 2023 talk](https://www.youtube.com/watch?v=eXkBfRqJ2f8&ab_channel=PythonIreland) on the subject.
 
 Ping me on the socials, if you want more content like this.
+
+## Update
+
+[Petr Viktorin](https://mastodon.social/@encukou) pointed out that this issue was addressed in Mypy recently, and the first listing should work without typing errors. Strangely it doesn't remove the error in VSCode for me, but it does work when you run it from the command line. I still haven't figured out what VSCode is doing differently, but it does seem to be a configuration issue. So you can probably disregard this post!
