@@ -127,4 +127,4 @@ Ping me on the socials, if you want more content like this.
 
 ## Update
 
-[Petr Viktorin](https://mastodon.social/@encukou) pointed out that this issue was addressed in Mypy recently, and the first listing should work without typing errors. Strangely it doesn't remove the error in VSCode for me, but it does work when you run it from the command line. I still haven't figured out what VSCode is doing differently, but it does seem to be a configuration issue. So you can probably disregard this post!
+[Petr Viktorin](https://mastodon.social/@encukou) pointed out that this issue was addressed in Mypy recently, and the first listing should work without typing errors. Strangely it doesn't remove the error in VSCode for me, but it does work when I run it from the command line. I still haven't figured out what VSCode is doing differently, but it does seem to be a configuration issue. So you can probably disregard this post!
