@@ -161,7 +161,7 @@ It remains a tadpole for now, incubating in a private repository.
 But you know I'm all about FOSS, and when its ready for a public beta I will release Toad under an Open Source license.
 
 Until that time, you can gain access to Toad by [sponsoring me on GitHub sponsors](https://github.com/sponsors/willmcgugan/sponsorships?sponsor=willmcgugan&tier_id=506004).
-I anticipate Toad being used by various commercial organizations were $5K a month wouldn't be a big ask.
+I anticipate Toad being used by various commercial organizations where $5K a month wouldn't be a big ask.
 So consider this a buy-in to influence the project for communal benefit at this early stage.
 
 With a bit of luck, this sabbatical needn't eat in to my retirement fund too much.
