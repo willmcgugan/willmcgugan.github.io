@@ -188,7 +188,7 @@ Until recently the only way to render this in Textual was to remove the Markdown
 This worked, but it would get slower to append content as the document grew&mdash;it just wasn't scalable.
 I needed a smarter solution.
 
-<iframe style="aspect-ratio: 1512 / 982;"  src="https://www.youtube.com/embed/PzkOAkvtF40" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio: 1512 / 982;"  src="https://www.youtube.com/embed/PzkOAkvtF40" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 *Markdown streaming in action.*
 
 In a Textual Markdown widget, every part of the output it also a widget.
