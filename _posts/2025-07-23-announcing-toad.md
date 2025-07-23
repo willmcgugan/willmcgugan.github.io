@@ -37,7 +37,7 @@ The prime example being flicker.
 
 Both Anthropic and Google's apps flicker due to the way they perform visual updates.
 These apps update the terminal by removing the previous lines and writing new output (even if only a single line needs to change). 
-This is a surprisingly expensive operation in terminals, and has a high likelihood you will see a partial frame&mdash;which will be perceive as flicker.
+This is a surprisingly expensive operation in terminals, and has a high likelihood you will see a partial frame&mdash;which will be perceived as flicker.
 It also means that you can only update a maximum of a few pages before the flicker gets intolerable.
 After that, content is committed to the terminal's scrollback buffer, and can't be changed.
 
@@ -96,7 +96,7 @@ Here's a quick video of Toad in its current state:
 
 What I have in mind is a universal front-end for AI in the terminal.
 This includes both AI chat-bots *and* agentic coding.
-The architecture I alluded to earlier is that the a front-end built with Python and Textual connects to a back-end subprocess.
+The architecture I alluded to earlier is that the front-end built with Python and Textual connects to a back-end subprocess.
 The back-end handles the interactions with the LLM and performs any agentic coding, while the front-end provides the user interface.
 The two sides communicate with each other by sending and receiving JSON over stdout and stdin.
 
