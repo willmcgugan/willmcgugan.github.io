@@ -96,7 +96,7 @@ Here's a quick video of Toad in its current state:
 
 What I have in mind is a universal front-end for AI in the terminal.
 This includes both AI chat-bots *and* agentic coding.
-The architecture I alluded to earlier is that the a front-end built with Python and Textual connect to a back-end subprocess.
+The architecture I alluded to earlier is that the a front-end built with Python and Textual connects to a back-end subprocess.
 The back-end handles the interactions with the LLM and performs any agentic coding, while the front-end provides the user interface.
 The two sides communicate with each other by sending and receiving JSON over stdout and stdin.
 
