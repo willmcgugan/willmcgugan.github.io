@@ -1,27 +1,29 @@
 ---
 layout: post
-title: Milkshake
-categories: [tech,sour grapes,side mission,markdown]
+title: Announcing Toad - a universal UI for agentic coding in the terminal 
+categories: [tech,sour grapes,side mission,markdown,toad]
 ---
 
 I'm a little salty that neither Anthropic nor Google reached out to me before they released their terminal-based AI coding agents.
 
 You see until recently I was the CEO of Textualize, a startup promoting rich applications for the terminal.
 Textualize didn't make it as a company, but I take heart that we built something amazing.
-There is now a thriving community of folk building TUIs that I am still a part of.
+There is now a [thriving community](https://discord.gg/Enf6Z3qhVr) of folk building TUIs that I am still a part of.
 
-So you will understand why when I finally got round to checking out [Claude code](https://www.anthropic.com/claude-code) and [Gemini CLI](https://github.com/google-gemini/gemini-cli) I was more interested in the terminal interface than the AI magic it was performing.
+So you will understand why when I finally got round to checking out [Claude code](https://www.anthropic.com/claude-code) and [Gemini CLI](https://github.com/google-gemini/gemini-cli), I was more interested in the terminal interface than the AI magic it was performing.
 And I was not impressed.
-Both projects suffer from jank and other glitches inherent to terminals that we solved in Textualize years ago.
+Both projects suffer from jank and other glitches inherent to terminals that Textualize solved years ago.
 
 How did I react to this?
 I did what any well adjusted code-monkey would do in this situation.
-I built a prototype across two afternoons in a nerdy caffeine-fueled rage while listening to metal music.
+I built the following prototype across two afternoons in a nerdy caffeine-fueled rage while listening to metal music.
 
 
 [![Toad](../images/toad2.png)](../images/toad2.png)
 
 | [![Toad](../images/toad1.png)](../images/toad1.png) | [![Toad](../images/toad3.png)](../images/toad3.png) | [![Toad](../images/toad4.png)](../images/toad4.png) |
+
+*The rainbow throbber may be OTT. It might go.*
 
 
 
@@ -57,7 +59,7 @@ It is something the app has to manage itself.
 But the work has already been done in [Textual](https://github.com/textualize/textual/).
 
 So why didn't big tech use Textual and Python to build their terminal agents?
-They would get text selection, smooth scrolling, flicker-free updates, app automation and snapshot testing, and a host of other feature that would have meant they could ship a better product faster.
+They would get text selection, smooth scrolling, flicker-free updates, app automation, snapshot testing, and a host of other features that would have meant they could ship a better product faster.
 
 I suspect the main reason that the creators came from a pool of front-end developers, and they used the terminal libraries in that ecosystem.
 I am not unsympathetic to that.
@@ -68,8 +70,7 @@ And when it comes to TUIs, Textual is so far ahead of anything in JS and other e
 Even if Python isn't their thing, the architecture I have in mind would allow for the AI interactions to be in any language (more on that later).
 
 I am clearly biased in this (massively so&mdash;I spent years working on Textual).
-But even now, I maintain that if Anthropic and Google switched to Textual, they would overtake their current trajectory in a month or two.
-Even if that included re-training in Python.
+But I maintain that if Anthropic and Google switched to Textual, they would overtake their current trajectory in a month or two.
 
 Let me quickly debunk some arguments against using Python for these things, in bullet list form because you didn't come here for tedious language wars...
 
@@ -79,33 +80,119 @@ Let me quickly debunk some arguments against using Python for these things, in b
 
 ## Licking the Toad
 
-I'm currently taking a year's sabbatical to recover from managing the aforementioned startup.
-At the time I genuinely thought I was sick of coding, and I could only stomach some light maintenance of Rich and Textual.
-Turns out I wasn't sick of coding at all.
-I still enjoy it, and I feel I could take on a hobby project while still focusing on my physical and mental health.
+I'm currently taking a year's sabbatical.
+When Textualize wrapped up I genuinely thought I was sick of coding, and I would never gain be able to find joy in building things.
+I'm happy to be wrong about that.
+I still enjoy coding, and Toad feels like the perfect hobby project for my very particular set of skills.
+Something I can build while continuing to focus on my physical and mental health (running a startup is taxing).
 
 So I am going to build it.
 
-What I have in mind is a universal front-end for AI services in the terminal.
-This includes both AI chat-bots that you might use the browser for *and* agentic coding.
+I *am* building it.
+
+Here's a quick video of Toad in its current state:
+
+<iframe  style="aspect-ratio: 1512 / 982;" src="https://www.youtube.com/embed/EKsCS54xduo" title="Toad - The universal AI interface" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+What I have in mind is a universal front-end for AI in the terminal.
+This includes both AI chat-bots *and* agentic coding.
+The architecture I alluded to earlier is that I can build Toad as a front-end in Python with Textual, and connect to a back-end via a subprocess.
+The back-end handles the interactions with the LLM and agentic coding, while the front-end provides the user interface.
+The two sides communicate with each other by sending JSON via stdout and stdin.
+
+There are a number of distinct advantages in this approach.
+The back-end can be in any language you wish.
+And as separate processes, both sides have exclusive access to a cpu core (no more waiting for the app to finish doing its thing before you can interact with it).
+
+This separation also allows for the front-end to be swapped out.
+In the future there may be a Toad desktop app, a mobile app, or a web app.
+
+But perhaps even more exciting is that once the protocol has been defined, the transport could be swapped out.
+The front-end can be on your local machine, talking to a back-end on another box over encrypted transport.
+This may sound like SSH, but doesn't suffer from any latency, as your UI is still running locally.
+
+Since the back-ends don't have to concern themselves with the UI, they can be implemented in a procedural style, making them easy to develop and test.
+And as accessible to solo developers (my people) as they are to big tech.
+
+I would expect there to be a library available for each language that provides some syntactical sugar over the JSON protocol.
+Here's some possible examples of such a library (in Python, but it could just as easily be JS or Rust):
+
+**Streaming Markdown**
+
+This would [stream](#ms-stream) the markdown in realtime.
+
+```python
+for chunk in response:
+    toad.append_markdown(chunk)
+```
+
+**Asking questions**
+
+This would replace the text prompt with a simple menu, and return the result.
+
+```python
+options = [
+    "Commit this code.",
+    "Revert the changes.",
+    "Exit and tell the agent what to do"
+]
+response = toad.ask(
+    f"I have generated {filename} for you. What do you want to do?",
+    options
+)
+```
+
+**Launching an editor**
+
+This would launch an editor, either inline in the Toad UI or an external editor depending on configuration.
+The user could then edit the code and return the update when saved.
+
+```python
+if toad.ask(
+    f"Edit {filename} before committing?"
+):
+    code = toad.edit(code)
+```
+
+## Want to try Toad?
+
+Toad isn't quite ready for a public beta (or alpha).
+It remains a tadpole for now, incubating in a private repository.
+But you know I'm all about FOSS, and when its ready for a public beta I will release Toad under an Open Source license.
+
+Until that time, you can gain access to Toad by [sponsoring me on GitHub sponsors](https://github.com/sponsors/willmcgugan/sponsorships?sponsor=willmcgugan&tier_id=506004).
+I anticipate Toad being used by various commercial organizations were $5K a month wouldn't be a big ask.
+So consider this a buy-in to influence the project for communal benefit at this early stage.
+
+With a bit of luck, this sabbatical needn't eat in to my retirement fund too much.
+If it goes well, it may even become my full-time gig.
+
+I will shortly invite a few tech friends and collaborators to the project.
+These things can't be the work of a single individual and I am going to need feedback as I work.
+If you would like to be a part of that, then feel free to reach out.
+But please note, I would like to prioritize folk in the Open Source community who have potentially related projects.
+
+For everyone else, I will be posting updates regularly here and on my socials (link at the bottom of the page).
+Expect screenshots, videos, and long form articles.
 
 
+## <a name="ms-stream"></a>Side quest - streaming markdown
 
-### Side quest - streaming markdown
+While working on Toad, it occurred to me there was a missing feature in Textual that I would need for Toad.
+Namely *streaming markdown*.
 
-LLMs converse in Markdown.
-But when talking to an LLM via an API, the Markdown doesn't arrive all at once.
+When talking to an LLM via an API, the Markdown doesn't arrive all at once.
 Rather you get fragments of markdown (known as tokens) which should be appended to an existing document.
 Until recently the only way to render this in Textual was to remove the Markdown widget and add it back again with the updated markdown.
-This worked, but it wasn't scalable since it gets slower to append content as the document grows.
-I would need a smarter solution to achieve *streaming* Markdown.
+This worked, but it would get slower to append content as the document grew&mdash;it just wasn't scalable.
+I needed a smarter solution.
 
-![Streaming MD](../images/mdstream.gif)
-*Streaming Markdown in Textual*
+<iframe style="aspect-ratio: 1512 / 982;"  src="https://www.youtube.com/embed/PzkOAkvtF40" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+*Markdown streaming in action.*
 
 In a Textual Markdown widget, every part of the output it also a widget.
 In other words, every paragraph, code fence, and table is a independent widget in its own right, with its own event loop.
-Since the bottleneck was adding and removing these widgets, any solution would have to avoid or dramatically reduce the number of times that needs to occur.
+Since the bottleneck was adding and removing these widgets, any solution would have to avoid or dramatically reduce the number of times that needed to occur.
 
 The Python library I use for Markdown parsing, [markdown-it-py](https://markdown-it-py.readthedocs.io/en/latest/), doesn't support any kind of streaming, but it turned out that it is possible to build streaming on top of it (and possibly any library).
 Markdown documents can be neatly divided in to top-level blocks, like a header, paragraph, code fence, table etc.
@@ -156,8 +243,11 @@ I fixed this with a buffer between the producer (the LLM) and the consumer (the 
 When new tokens arrive before the previous update has finished, they are concatenated and stored until the widget is ready for them.
 The end result is that the display is only ever a few milliseconds behind the data itself.
 
+### Get the code
 
-
+This work will shortly land in the [Textual repository](https://github.com/textualize/textual).
+I would expect this to be a common occurrence working on Toad.
+If it belongs in the core library it goes in the core library, so expect Toad features being available in Textual prior to the release of Toad itself.
 
 
 
