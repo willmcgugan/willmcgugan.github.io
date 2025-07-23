@@ -156,7 +156,7 @@ if toad.ask(
 
 ## Want to try Toad?
 
-Toad isn't quite ready for a public beta (or alpha).
+Toad isn't quite ready for a public release.
 It remains a tadpole for now, incubating in a private repository.
 But you know I'm all about FOSS, and when its ready for a public beta I will release Toad under an Open Source license.
 
