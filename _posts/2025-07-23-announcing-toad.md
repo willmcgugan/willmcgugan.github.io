@@ -174,6 +174,7 @@ But please note, I would like to prioritize folk in the Open Source community wh
 
 For everyone else, I will be posting updates regularly here and on my socials (link at the bottom of the page).
 Expect screenshots, videos, and long form articles.
+Please be patient&mdash;you will be agentic toading before too long.
 
 
 ## <a name="md-stream"></a>Side quest - streaming markdown
