@@ -92,7 +92,7 @@ I *am* building it.
 
 Here's a quick video of Toad in its current state:
 
-<iframe  style="aspect-ratio: 1512 / 982;" src="https://www.youtube.com/embed/EKsCS54xduo" title="Toad - The universal AI interface" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" style="aspect-ratio: 1512 / 982;" src="https://www.youtube.com/embed/EKsCS54xduo" title="Toad - The universal AI interface" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 What I have in mind is a universal front-end for AI in the terminal.
 This includes both AI chat-bots *and* agentic coding.
