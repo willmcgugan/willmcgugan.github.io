@@ -119,7 +119,7 @@ Here's some possible examples of such a library (in Python, but it could just as
 
 **Streaming Markdown**
 
-This would [stream](#ms-stream) the markdown in realtime.
+This would [stream](#md-stream) the markdown in realtime.
 
 ```python
 for chunk in response:
@@ -176,7 +176,7 @@ For everyone else, I will be posting updates regularly here and on my socials (l
 Expect screenshots, videos, and long form articles.
 
 
-## <a name="ms-stream"></a>Side quest - streaming markdown
+## <a name="md-stream"></a>Side quest - streaming markdown
 
 While working on Toad, it occurred to me there was a missing feature in Textual that I would need for Toad.
 Namely *streaming markdown*.
