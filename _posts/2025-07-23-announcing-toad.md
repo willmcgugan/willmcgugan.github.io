@@ -16,7 +16,7 @@ Both projects suffer from jank and other glitches inherent to terminals that Tex
 
 How did I react to this?
 I did what any well adjusted code-monkey would do in this situation.
-I built the following prototype across two afternoons in a nerdy caffeine-fueled rage while listening to metal music.
+I built the following prototype across two afternoons in a nerdy caffeinated rage while listening to metal music.
 
 
 [![Toad](../images/toad2.png)](../images/toad2.png)
