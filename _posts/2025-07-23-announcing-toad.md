@@ -179,4 +179,5 @@ Expect screenshots, videos, and long form articles.
 Please be patient&mdash;you will be agentic toading before too long.
 
 <a name="md-stream"></a>
-Looking for the [markdown streaming](../streaming-markdown/)?
+
+Looking for [markdown streaming](../streaming-markdown/)?
