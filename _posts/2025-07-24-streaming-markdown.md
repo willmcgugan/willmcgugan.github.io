@@ -25,12 +25,12 @@ In a Textual Markdown widget, every part of the output it also a widget.
 In other words, every paragraph, code fence, and table is a independent widget in its own right, with its own event loop.
 Since the bottleneck was adding and removing these widgets, any solution would have to avoid or dramatically reduce the number of times that needed to occur.
 
+### Optimization 1.
+
 The Python library I use for Markdown parsing, [markdown-it-py](https://markdown-it-py.readthedocs.io/en/latest/), doesn't support any kind of streaming, but it turned out that it is possible to build streaming on top of it (and possibly any library).
 Markdown documents can be neatly divided in to top-level blocks, like a header, paragraph, code fence, table etc.
 When you add to the document, only the very last block can change.
 You can consider the blocks prior to the last to be finalized.
-
-### Optimization 1.
 
 This observation lead me to working on an optimization to avoid removing and re-creating these finalized blocks.
 But there was a sticking point.
