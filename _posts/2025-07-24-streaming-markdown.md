@@ -34,8 +34,7 @@ When you add to the document, only the very last block can change.
 You can consider the blocks prior to the last to be finalized.
 
 This observation lead me to working on an optimization to avoid removing and re-creating these finalized blocks.
-But there was a sticking point.
-It turns out that the very last block can change its type when you add new content.
+But there was a sticking point: the last block can change its type when you add new content.
 Consider a table where the first tokens add the headers to the table.
 The parser considers that text to be a simple paragraph block up until the entire row has arrived, and then all-of-a-sudden the paragraph becomes a table.
 Once I took that into account, it worked.
