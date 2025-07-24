@@ -42,7 +42,7 @@ It was a massive win and streaming became more practical.
 
 ### Optimization 2.
 
-The next step was to avoid replacing even last widget on new content.
+The next step was to avoid replacing even the last widget on new content.
 This is unavoidable if the last block changes type, but if it didn't, I could add new content without replacing the widget (a far simpler operation in Textual).
 The paragraph block, for instance, was trivial to update.
 As was the code fence.
