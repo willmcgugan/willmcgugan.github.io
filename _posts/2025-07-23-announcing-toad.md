@@ -10,6 +10,8 @@ You see until recently I was the CEO of Textualize, a startup promoting rich app
 Textualize didn't make it as a company, but I take heart that we built something amazing.
 There is now a [thriving community](https://discord.gg/Enf6Z3qhVr) of folk building TUIs that I am still a part of.
 
+<!-- more -->
+
 So you will understand why when I finally got round to checking out [Claude code](https://www.anthropic.com/claude-code) and [Gemini CLI](https://github.com/google-gemini/gemini-cli), I was more interested in the terminal interface than the AI magic it was performing.
 And I was not impressed.
 Both projects suffer from jank and other glitches inherent to terminals that Textualize solved years ago.
@@ -90,7 +92,7 @@ So I am going to build it.
 
 I *am* building it.
 
-Here's a quick video of Toad in its current state:
+<a name="tldr"></a>Here's a quick video of Toad in its current state:
 
 <iframe width="100%" style="aspect-ratio: 1512 / 982;" src="https://www.youtube.com/embed/EKsCS54xduo" title="Toad - The universal AI interface" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -251,4 +253,5 @@ I would expect this to be a common occurrence working on Toad.
 If it belongs in the core library it goes in the core library, so expect Toad features being available in Textual prior to the release of Toad itself.
 
 
-
+<a name="md-stream"></a>
+Looking for the [markdown streaming](../streaming-markdown/)?
