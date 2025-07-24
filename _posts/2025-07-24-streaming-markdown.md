@@ -27,7 +27,8 @@ Since the bottleneck was adding and removing these widgets, any solution would h
 
 ### Optimization 1.
 
-The Python library I use for Markdown parsing, [markdown-it-py](https://markdown-it-py.readthedocs.io/en/latest/), doesn't support any kind of streaming, but it turned out that it is possible to build streaming on top of it (and possibly any library).
+The Python library I use for Markdown parsing, [markdown-it-py](https://markdown-it-py.readthedocs.io/en/latest/), doesn't support any kind of streaming.
+This turned out to be a non-issue as it is possible to build streaming on top of it (and probably any Markdown library).
 Markdown documents can be neatly divided in to top-level blocks, like a header, paragraph, code fence, table etc.
 When you add to the document, only the very last block can change.
 You can consider the blocks prior to the last to be finalized.
