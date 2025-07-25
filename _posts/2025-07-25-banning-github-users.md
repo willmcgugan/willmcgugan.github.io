@@ -42,7 +42,7 @@ Rather than stepping back to reconsider their approach, or read the docs again, 
 Venting is not an instant ban, because I know how frustrating programming can be.
 But virtually 100% of these issues are resolved with a link to the docs, and none of reply with a "my bad" even if I suppress my snark.
 
-So not an instant ban, but if venting is accompanied by a list of criticisms or crosses the line in to personal abuse, then I'm going to be reaching for that ban button.
+So not an instant ban, but if venting crosses the line to personal abuse, then I'm going to be reaching for that ban button.
 
 Almost everyone recognizes that an posting an issue is essentially asking a favor.
 If you want somebody to help you move house, you wouldn't start by criticizing their driving.
