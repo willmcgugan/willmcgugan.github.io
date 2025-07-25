@@ -28,7 +28,7 @@ I had no choice but to ban them, but I genuinely hope they found treatment for t
 
 ## Venting
 
-A venting post almost always starts with "I spend X hours / days on this".
+A venting post almost always starts with "I spent X hours / days on this".
 Such users want me to know how much I have inconvenienced them and they are rarely genuine in asking for help.
 
 I try to be generous, but that tends to put me on the defensive.
