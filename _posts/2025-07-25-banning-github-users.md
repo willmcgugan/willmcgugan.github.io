@@ -31,8 +31,8 @@ I had no choice but to ban them, but I genuinely hope they found treatment for t
 A venting post almost always starts with "I spent X hours / days on this".
 Such users want me to know how much I have inconvenienced them and they are rarely genuine in asking for help.
 
-I try to be generous, but that tends to put me on the defensive.
-I'm not going to treat that issue as a priority, and when I do respond it will be a tad more snarky that usual.
+I try to be generous, but that phrase tends to put me on the defensive.
+I'm not going to treat the issue as a priority, and when I do respond it will be a tad more snarky that usual.
 
 Venting posts are almost always a skill issue in behalf of the user.
 The user has either misread the docs or not read them at all, and they have consequently made some invalid assumptions about how the API should work.
