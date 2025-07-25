@@ -35,7 +35,7 @@ I try to be generous, but that tends to put me on the defensive.
 I'm not going to treat that issue as a priority, and when I do respond it will be a tad more snarky that usual.
 
 Venting posts are almost always a skill issue in behalf of the user.
-The user has either misread the docs or not read them at all, and the have consequently made some invalid assumptions about how the API should work.
+The user has either misread the docs or not read them at all, and they have consequently made some invalid assumptions about how the API should work.
 They couldn't get their code to work, because it was never intended to work in they way they were using it.
 Rather than stepping back to reconsider their approach, or read the docs again, they want to shift the blame to me.
 
