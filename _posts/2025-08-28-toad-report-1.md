@@ -6,7 +6,7 @@ categories: [tech, toad]
 
 Welcome to the inaugural issue of the Toad Report, an irregular series where I document updates to Toad&mdash;my terminal interface for agentic coding and all things AI.
 
-To quickly recap: Toad is intended to a *universal* front-end to AI services, which is entirely agnostic to the models and providers, while providing an altogether more humane user-experience.
+To quickly recap: Toad is intended to be a *universal* front-end to AI services, which is entirely agnostic to the models and providers, while providing an altogether more humane user-experience.
 
 <iframe width="100%" style="aspect-ratio:16/11;" src="https://www.youtube.com/embed/fSE44AuiC8k" title="Toad Report 1 - video demonstration" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
