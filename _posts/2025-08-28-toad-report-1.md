@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Toad Report 1
+title: "The Toad Report #1"
 categories: [tech, toad]
 ---
 
