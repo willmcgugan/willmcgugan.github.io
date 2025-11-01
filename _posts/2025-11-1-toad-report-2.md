@@ -16,9 +16,9 @@ Here is a video I recorded of Toad running Claude and Gemini head-to-head.
 
 <iframe width="100%" style="aspect-ratio:16/11;" src="https://www.youtube.com/embed/OGGVdPZTc8E" title="claude v gemini" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Corporate sponsorship
+## Welcome OpenHands
 
-In related news, I'm very happy to welcome [OpenHands](https://github.com/OpenHands/OpenHands) as my first corporate sponsor!
+I'm very happy to welcome [OpenHands](https://github.com/OpenHands/OpenHands) as my first corporate sponsor!
 These guys are pioneers in agentic coding, and I look forward to getting OpenHands running on Toad.
 
 ## Toad's shell
@@ -60,3 +60,5 @@ Follow me on the socials where I will be posting regular updates.
 You can also join the [Textual Discord Server](https://discord.gg/Enf6Z3qhVr) if you want to chat with me or the Textual community.
 
 Join the `#toad` channel if you would like an invite to the Toad repository. I'll be sending those out in a week or two.
+
+Thanks for reading!
