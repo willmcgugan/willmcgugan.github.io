@@ -7,7 +7,7 @@ categories: [tech, toad, ai]
 Welcome to the second issue of The Toad Report. If you are new here, Toad is a universal interface for AI I am currently building.
 
 Things are moving (hopping) fast in the Toad world.
-I recently implemented the [Agent Client Protocol](https://agentclientprotocol.com/protocol/initialization) in Toad, which means that Toad can now act as a front-end for Gemini, Claude, Codex, and a variety of other agentic coding agents.
+I recently implemented the [Agent Client Protocol](https://agentclientprotocol.com/protocol/initialization) in Toad, which means that Toad can now act as a front-end for Gemini, Claude, Codex, and a variety of other agentic coding solutions.
 
 This is very exciting, as you can now use all these services from a single terminal interface.
 And the UX is already leaps and hops ahead of big tech's CLIs.
@@ -59,6 +59,6 @@ Here is path auto-completion in action:
 Follow me on the socials where I will be posting regular updates.
 You can also join the [Textual Discord Server](https://discord.gg/Enf6Z3qhVr) if you want to chat with me or the Textual community.
 
-Join the `#toad` channel if you would like an invite to the Toad repository. I'll be sending those out in a week or two.
+Join the `#toad` channel if you would like an invite to the Toad repository. I'll be sending more out in a week or two.
 
 Thanks for reading!
