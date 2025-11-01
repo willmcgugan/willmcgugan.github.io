@@ -23,7 +23,7 @@ These guys are pioneers in agentic coding, and I look forward to getting OpenHan
 
 ## Toad's shell
 
-Claude tells me that there is no species of Toad that has a shell.
+Claude tells me that there is no species of toad that has a shell.
 But Toad with a capital T does.
 
 Having an integrated shell within agentic coding tools just makes sense.

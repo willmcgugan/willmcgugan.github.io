@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Toad Report #1"
-categories: [tech, toad]
+categories: [tech, toad, ai]
 ---
 
 Welcome to the inaugural issue of the Toad Report, an irregular series where I document updates to Toad&mdash;my terminal interface for agentic coding and all things AI.
