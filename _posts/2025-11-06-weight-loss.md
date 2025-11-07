@@ -14,7 +14,7 @@ Please don't take my word for anything health related&mdash;talk to a medical pr
 Got it? Good.
 
 
-One of my main goals from my year off was to lose weight, which had been creeping upwards (albeit *slowly*) over the years.
+One of my main goals from my year off was to lose weight, which had been creeping upwards over the years.
 When I started my sabbatical in June I had reached 100kg which pushed me just over the threshold from overweight to obese.
 
 Of course this shocked me.
