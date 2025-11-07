@@ -56,7 +56,7 @@ There are several forms of exercise that don't inflame the back pain, such as sw
 I just didn't find anything that I enjoyed doing regularly in the same way as running.
 
 My diet is fairly healthy&mdash;for a Scot at least.
-I suspected I am in the top 0.1% percentile in the country for eating vegetables (and I'm not counting potato).
+I suspect I am in the top 0.1% percentile in the country for eating vegetables (and I'm not counting potato).
 My downfall is more sweet foods, which I typically indulge in my morning pastry and coffee.
 The rest of the day I try to eat healthy.
 I watch portion size and routinely deny myself things I would enjoy eating (trust me: if I ate all the sweet things I wanted to, my diet would be 90% cinnamon buns).
