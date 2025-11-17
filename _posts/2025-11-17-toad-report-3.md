@@ -6,7 +6,7 @@ categories: [tech, toad, ai]
 
 Welcome to the third issue of the Toad Report. If you are new here, Toad is a universal interface for API I am currently building.
 
-To date, most of the my work on Toad has been spend in building the "conversation" view where the user can converse and interact with their chosen AI agent.
+To date, most of the my work on Toad has been focussed on building the "conversation" view where the user can converse and interact with their chosen AI agent.
 This has come together rather well, with a polished enough user experience for [Hugging Face](https://huggingface.co/) to start building integrations with their technology!
 And all before Toad's official release.
 
@@ -31,7 +31,7 @@ In this dialog is a pull down list of possible actions associated with the agent
 
 ![Toad Store](../images/toadreport3/store2.png)
 
-Clicking the "Go" button downloads and installs the agent without ever leaving the application.
+Clicking the "Go" button downloads and installs the agent without ever leaving the app:
 
 ![Toad Store](../images/toadreport3/store3.png)
 
