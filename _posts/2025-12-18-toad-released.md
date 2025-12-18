@@ -70,6 +70,12 @@ At the moment that feature is used as a convenience to copy content to the clipb
 
 Toad will lean more heavily in to this kind of interaction in the future.
 
+## Friends of Toad
+
+I was very fortunate to collaborate with [OpenHands](https://openhands.dev/), who are doing some amazing work in this space. Check out their [blog post](https://openhands.dev/) on Toad!
+
+I also collaborated with [Hugging Face](https://huggingface.co) on this release. Check out their blog post on their [inference explorers](https://huggingface.co/toad-hf-inference-explorers)!
+
 ## Try Toad
 
 When this post is live you will be able to install Toad yourself.
