@@ -72,7 +72,7 @@ Toad will lean more heavily in to this kind of interaction in the future.
 
 ## Friends of Toad
 
-I was very fortunate to collaborate with [OpenHands](https://openhands.dev/), who are doing some amazing work in this space. Check out their [blog post](https://openhands.dev/) on Toad!
+I was very fortunate to collaborate with [OpenHands](https://openhands.dev/), who are doing some amazing work in this space. Check out their [blog post](https://www.openhands.dev/blog/20251218-openhands-toad-collaboration) on Toad!
 
 I also collaborated with [Hugging Face](https://huggingface.co) on this release. Check out their blog post on their [inference explorers](https://huggingface.co/toad-hf-inference-explorers)!
 
