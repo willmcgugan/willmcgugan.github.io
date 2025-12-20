@@ -63,7 +63,7 @@ If there is more than one possibility you can hit tab again to cycle through the
 ![Toad tab complete](../images/toad-released/tabcomplete.gif)
 
 In addition to the shell, Toad implements a few concepts from Jupyter notebooks.
-You can cursor through previous conversation, moving a logical block at a time, and interactive with it again.
+You can cursor through previous conversation, moving a logical block at a time, and interact with it again.
 At the moment that feature is used as a convenience to copy content to the clipboard or prompt, and a few other niceties like exporting a SVG.
 
 ![Cursor block](../images/toad-released/cursor-block.png)
