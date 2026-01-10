@@ -51,14 +51,14 @@ This makes me wonder if the job of maintainer could be replaced with AI.
 I want to propose an experiment...
 
 Let's create a repository with some initial AI generated code: "Photoshop, but easier to use" is as a starting point as good as any.
-An AI agent will review issues, responds via comments, and may tag the issue with "todo" or close it if it doesn't reach a bar for relevance and quality.
+An AI agent will review issues, respond via comments, and may tag the issue with "todo" or close it if it doesn't reach a bar for relevance and quality.
 
 PRs are accepted for "todo" issues and will be reviewed, commented, and ultimately merged or closed by the AI.
 These PRs may be human or AI generated—the AI doesn't care (as if it could).
 
 Note that PRs could modify any of the prompts used by the AI, and those edits will be reviewed by the AI in the same way as any other file.
 
-Would the end result be quality software or a heinous abomination, succeeding only in creating a honey-pot for prompt-injection attacks?
+Would the end result be quality software or a heinous abomination, succeeding only in creating a honeypot for prompt-injection attacks?
 
 I have no intention of making this happen.
 But if somebody does, tell me how it goes.
