@@ -53,7 +53,7 @@ I want to propose an experiment...
 Let's create a repository with some initial AI generated code: "Photoshop, but easier to use" is as a starting point as good as any.
 An AI agent will review issues, respond via comments, and may tag the issue with "todo" or close it if it doesn't reach a bar for relevance and quality.
 
-PRs are accepted for "todo" issues and will be reviewed, commented, and ultimately merged or closed by the AI.
+PRs are accepted for "todo" issues and will be reviewed, discussed, and ultimately merged or closed by the AI.
 These PRs may be human or AI generated—the AI doesn't care (as if it could).
 
 Note that PRs could modify any of the prompts used by the AI, and those edits will be reviewed by the AI in the same way as any other file.
