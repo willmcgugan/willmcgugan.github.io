@@ -41,3 +41,9 @@ This project accepts AI generated Pull Requests, as long as the following guidel
 
 The maintainer reserves the right to close PRs without comment if the above are not met.
 
+## Update
+
+Turns out `AI_POLICY.md` is being used in a bunch of projects, for this purpose.
+
+Oddly, Claude told me there was no standard for this.
+I suspect this is an organically emerging "standard", and I hope it is adopted by more projects!
