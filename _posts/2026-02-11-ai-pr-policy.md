@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AL_POLICY.md
+title: AI_POLICY.md
 categories: [tech, AI]
 ---
 
