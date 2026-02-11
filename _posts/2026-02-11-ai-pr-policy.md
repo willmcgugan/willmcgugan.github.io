@@ -6,7 +6,7 @@ categories: [tech, AI]
 
 If you maintain Open Source software, you will likely have encountered AI slop PRs.
 
-Not all AI authored code can be considered slop, which is why a blanket ban on AI would be counter productive.
+Not all AI authored code can be considered slop, which is why a blanket ban on AI would be counterproductive.
 My definition of "slop" is work that is AI generated, with very little involvement by the human operator.
 It may seem like a good deal if somebody is spending their tokens to help your project, but without a passing understanding of the project or issue in question, the author can't always prompt their way to a good solution.
 
