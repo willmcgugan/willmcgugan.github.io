@@ -4,7 +4,7 @@ title: Stop, don't Slop
 categories: [tech, AI]
 ---
 
-You find a bug in an Open Source project and generously wish to spend your tokens on solving that issue for the good of humanity. Your fingers hover over the keyboard, trembling in anticipation of the glorious prompt that will unblock your fellow developers. Before you type "FIx issue X make no mistaks" Stop!
+So you find a bug in an Open Source project and wish to spend your tokens solving that issue for the good of humanity. Your fingers hover over the keyboard, trembling in anticipation of the glorious prompt that will unblock your fellow developers. Before you type "FIx issue X make no mistaks" Stop!
 
 AI is a modern marvel, but a Thanos level click of the fingers it is not. To prompt the best fix *you* need context. You need to diagnose the issue while considering the broader implications of your changes. I'm a maintainer of several open source packages, and let me tell you that well over half of issue reports incorrectly attribute the source of the bug and they often have grave misunderstandings about what the correct behavior is. No matter how good your AI is, if you give it a bum steer it may produce garbage.
 
