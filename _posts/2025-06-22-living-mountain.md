@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Living Mountain
-categories: [fiction]
+categories: [fiction, living-mountain]
 date: 2025-06-22 13:10:00 +0100
 ---
 
